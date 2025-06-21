@@ -291,7 +291,7 @@ function showQuestion() {
   q.options.forEach((opt, i) => {
     const selected = userAnswers[currentIndex] === i ? 'checked' : '';
     optionsDiv.innerHTML += `
-      <label style="flex: 0 0 48%;"><input type=\"radio\" name=\"option\" value=\"${i}\" ${selected} onchange=\"handleAnswer(${i})\"> ${String.fromCharCode(65+i)}. ${opt}</label>
+      <label style="flex: 0 0 45%; font-size: 0.95em; padding: 12px 10px;"><input type=\"radio\" name=\"option\" value=\"${i}\" ${selected} onchange=\"handleAnswer(${i})\"> ${String.fromCharCode(65+i)}. ${opt}</label>
     `;
   });
 }
