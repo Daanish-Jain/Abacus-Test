@@ -133,19 +133,25 @@
       border-color: #81d4fa;
     }
     .nav-buttons {
-      margin-top: 30px;
-    }
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
     .nav-buttons button {
-      margin: 10px;
-      padding: 14px 24px;
-      font-size: 1.2em;
-      background-color: #1976d2;
-      color: white;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-    }
+  padding: 8px 12px;
+  font-size: 0.95em;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  min-width: 90px;
+  max-width: 130px;
+  flex: 1 1 auto;
+}
     .nav-buttons button:hover {
       background-color: #0d47a1;
     }
