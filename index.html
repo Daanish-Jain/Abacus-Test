@@ -171,7 +171,7 @@ function showQuestion() {
     let isNegative = num.trim().startsWith('-');
     let pure = num.trim().replace('-', '').padStart(3, ' ');
     return (isNegative ? ' - ' : '   ') + pure;
-  }).join('\\n') + '</pre>';
+  }).join('\n') + '</pre>';
   const optionsDiv = document.getElementById('options');
   optionsDiv.innerHTML = '';
   q.options.forEach((opt, i) => {
