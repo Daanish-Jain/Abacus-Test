@@ -7,48 +7,114 @@
   <style>
     body {
       font-family: 'Courier New', monospace;
+      margin: 0;
+      display: flex;
+      height: 100vh;
+      background: linear-gradient(to bottom, #f5f7fa, #c3cfe2);
+      color: #333;
+    }
+    .sidebar {
+      width: 100px;
+      background-color: #f0f0f0;
+      padding: 10px;
+      overflow-y: auto;
+      border-right: 1px solid #ccc;
+    }
+    .sidebar button {
+      width: 100%;
+      margin-bottom: 4px;
+      padding: 6px 0;
+      border: none;
+      border-radius: 4px;
+      background-color: #eee;
+      font-size: 0.9em;
+    }
+    .sidebar button.answered {
+      background-color: teal;
+      color: white;
+    }
+    .main {
+      flex: 1;
       padding: 20px;
-      max-width: 700px;
+      max-width: 900px;
       margin: auto;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+    #timer {
+      font-size: 1.5em;
+      text-align: center;
+      margin-bottom: 20px;
+      font-weight: bold;
     }
     .question {
       white-space: pre;
-      font-size: 1.3em;
-      margin-bottom: 10px;
+      font-size: 1.6em;
+      margin-bottom: 15px;
     }
     .options label {
       display: block;
-      margin: 5px 0;
-      cursor: pointer;
+      margin: 8px 0;
+      font-size: 1.3em;
+      background: #fff;
+      padding: 8px 12px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      transition: background 0.3s;
+    }
+    .options label:hover {
+      background: #eef;
+    }
+    .nav-buttons {
+      text-align: center;
+      margin-top: 20px;
     }
     .nav-buttons button {
       margin: 5px;
+      font-size: 1.1em;
+      padding: 10px 15px;
+      border: none;
+      background-color: #007acc;
+      color: white;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .nav-buttons button:hover {
+      background-color: #005f99;
     }
     .hidden {
       display: none;
     }
     .correct {
       color: green;
+      font-weight: bold;
     }
     .wrong {
       color: red;
+      font-weight: bold;
     }
   </style>
 </head>
 <body>
-  <h1>Abacus Level 6 - MCQ Exam</h1>
-  <div id="timer">Time Left: 10:00</div>
-  <div id="question-number"></div>
-  <div class="question" id="question-text"></div>
-  <div class="options" id="options"></div>
+  <div class="sidebar" id="navigation-panel"></div>
+  <div class="main">
+    <h1>Abacus Level 6 - MCQ Exam</h1>
+    <div id="timer">Time Left: 10:00</div>
+    <div id="question-number"></div>
+    <div class="question" id="question-text"></div>
+    <div class="options" id="options"></div>
 
-  <div class="nav-buttons">
-    <button onclick="prevQuestion()">Previous</button>
-    <button onclick="nextQuestion()">Next</button>
-    <button onclick="confirmSubmit()">Submit</button>
+    <div class="nav-buttons">
+      <button onclick="prevQuestion()">Previous</button>
+      <button onclick="nextQuestion()">Next</button>
+      <button onclick="confirmSubmit()">Submit</button>
+    </div>
+
+    <div id="results" class="hidden"></div>
   </div>
-
-  <div id="results" class="hidden"></div>
 
   <script>
     let questions = [];
@@ -62,6 +128,7 @@
       .then(data => {
         questions = data;
         startTimer();
+        createNavPanel();
         showQuestion();
       });
 
@@ -80,15 +147,24 @@
     function showQuestion() {
       const q = questions[currentIndex];
       document.getElementById('question-number').textContent = `Question ${q.id}/150`;
-      document.getElementById('question-text').textContent = q.question.join('\n');
+      document.getElementById('question-text').innerHTML = '<pre>' + q.question.map(num => {
+        let isNegative = num.trim().startsWith('-');
+        let pure = num.trim().replace('-', '').padStart(3, ' ');
+        return (isNegative ? ' - ' : '   ') + pure;
+      }).join('\n') + '</pre>';
       const optionsDiv = document.getElementById('options');
       optionsDiv.innerHTML = '';
       q.options.forEach((opt, i) => {
         const selected = userAnswers[currentIndex] === i ? 'checked' : '';
         optionsDiv.innerHTML += `
-          <label><input type="radio" name="option" value="${i}" ${selected} onchange="userAnswers[${currentIndex}] = ${i}"> ${String.fromCharCode(65+i)}. ${opt}</label>
+          <label><input type="radio" name="option" value="${i}" ${selected} onchange="handleAnswer(${i})"> ${String.fromCharCode(65+i)}. ${opt}</label>
         `;
       });
+    }
+
+    function handleAnswer(optionIndex) {
+      userAnswers[currentIndex] = optionIndex;
+      updateNavPanel();
     }
 
     function nextQuestion() {
@@ -102,6 +178,34 @@
       if (currentIndex > 0) {
         currentIndex--;
         showQuestion();
+      }
+    }
+
+    function jumpToQuestion(index) {
+      currentIndex = index;
+      showQuestion();
+    }
+
+    function createNavPanel() {
+      const panel = document.getElementById('navigation-panel');
+      for (let i = 0; i < questions.length; i++) {
+        const btn = document.createElement('button');
+        btn.id = `nav-btn-${i}`;
+        btn.textContent = i + 1;
+        btn.onclick = () => jumpToQuestion(i);
+        panel.appendChild(btn);
+      }
+      updateNavPanel();
+    }
+
+    function updateNavPanel() {
+      for (let i = 0; i < questions.length; i++) {
+        const btn = document.getElementById(`nav-btn-${i}`);
+        if (userAnswers[i] !== null) {
+          btn.classList.add('answered');
+        } else {
+          btn.classList.remove('answered');
+        }
       }
     }
 
@@ -133,6 +237,7 @@
       document.getElementById('question-text').classList.add('hidden');
       document.getElementById('options').classList.add('hidden');
       document.querySelector('.nav-buttons').classList.add('hidden');
+      document.getElementById('navigation-panel').classList.add('hidden');
     }
   </script>
 </body>
