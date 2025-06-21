@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Abacus MCQ Exam</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Courier New', monospace;
+      padding: 20px;
+      max-width: 700px;
+      margin: auto;
+    }
+    .question {
+      white-space: pre;
+      font-size: 1.3em;
+      margin-bottom: 10px;
+    }
+    .options label {
+      display: block;
+      margin: 5px 0;
+      cursor: pointer;
+    }
+    .nav-buttons button {
+      margin: 5px;
+    }
+    .hidden {
+      display: none;
+    }
+    .correct {
+      color: green;
+    }
+    .wrong {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <h1>Abacus Level 6 - MCQ Exam</h1>
+  <div id="timer">Time Left: 10:00</div>
+  <div id="question-number"></div>
+  <div class="question" id="question-text"></div>
+  <div class="options" id="options"></div>
+
+  <div class="nav-buttons">
+    <button onclick="prevQuestion()">Previous</button>
+    <button onclick="nextQuestion()">Next</button>
+    <button onclick="confirmSubmit()">Submit</button>
+  </div>
+
+  <div id="results" class="hidden"></div>
+
+  <script>
+    let questions = [];
+    let currentIndex = 0;
+    let userAnswers = Array(150).fill(null);
+    let timerSeconds = 600;
+    let timerInterval;
+
+    fetch('abacus_questions_clean_150.json')
+      .then(res => res.json())
+      .then(data => {
+        questions = data;
+        startTimer();
+        showQuestion();
+      });
+
+    function startTimer() {
+      timerInterval = setInterval(() => {
+        if (--timerSeconds <= 0) {
+          clearInterval(timerInterval);
+          submitExam();
+        }
+        const mins = Math.floor(timerSeconds / 60);
+        const secs = String(timerSeconds % 60).padStart(2, '0');
+        document.getElementById('timer').textContent = `Time Left: ${mins}:${secs}`;
+      }, 1000);
+    }
+
+    function showQuestion() {
+      const q = questions[currentIndex];
+      document.getElementById('question-number').textContent = `Question ${q.id}/150`;
+      document.getElementById('question-text').textContent = q.question.join('\n');
+      const optionsDiv = document.getElementById('options');
+      optionsDiv.innerHTML = '';
+      q.options.forEach((opt, i) => {
+        const selected = userAnswers[currentIndex] === i ? 'checked' : '';
+        optionsDiv.innerHTML += `
+          <label><input type="radio" name="option" value="${i}" ${selected} onchange="userAnswers[${currentIndex}] = ${i}"> ${String.fromCharCode(65+i)}. ${opt}</label>
+        `;
+      });
+    }
+
+    function nextQuestion() {
+      if (currentIndex < questions.length - 1) {
+        currentIndex++;
+        showQuestion();
+      }
+    }
+
+    function prevQuestion() {
+      if (currentIndex > 0) {
+        currentIndex--;
+        showQuestion();
+      }
+    }
+
+    function confirmSubmit() {
+      const confirm = window.confirm("Are you sure you want to submit the exam? You won't be able to change your answers afterwards.");
+      if (confirm) {
+        submitExam();
+      }
+    }
+
+    function submitExam() {
+      clearInterval(timerInterval);
+      let score = 0;
+      let resultHtml = '<h2>Results</h2>';
+      questions.forEach((q, i) => {
+        const userAnswer = userAnswers[i];
+        const correct = q.answerIndex;
+        const status = userAnswer === correct ? 'correct' : 'wrong';
+        if (userAnswer === correct) score++;
+        resultHtml += `
+          <div class="${status}">
+            Q${q.id}: Your Answer: ${userAnswer !== null ? String.fromCharCode(65 + userAnswer) : 'None'} | Correct: ${String.fromCharCode(65 + correct)}
+          </div>
+        `;
+      });
+      resultHtml += `<h3>Final Score: ${score}/150</h3>`;
+      document.getElementById('results').innerHTML = resultHtml;
+      document.getElementById('results').classList.remove('hidden');
+      document.getElementById('question-text').classList.add('hidden');
+      document.getElementById('options').classList.add('hidden');
+      document.querySelector('.nav-buttons').classList.add('hidden');
+    }
+  </script>
+</body>
+</html>

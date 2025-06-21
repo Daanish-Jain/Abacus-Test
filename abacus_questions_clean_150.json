@@ -1,0 +1,2643 @@
+[
+  {
+    "id": 1,
+    "question": [
+      "75",
+      "26",
+      "17",
+      "58",
+      "68",
+      "21",
+      "67",
+      "15",
+      "95",
+      "2"
+    ],
+    "options": [
+      "447",
+      "444",
+      "441",
+      "437"
+    ],
+    "answerIndex": 1,
+    "type": "arithmetic"
+  },
+  {
+    "id": 2,
+    "question": [
+      "-50",
+      "78",
+      "38",
+      "30",
+      "80",
+      "66",
+      "24",
+      "99",
+      "63",
+      "45"
+    ],
+    "options": [
+      "473",
+      "466",
+      "470",
+      "480"
+    ],
+    "answerIndex": 0,
+    "type": "arithmetic"
+  },
+  {
+    "id": 3,
+    "question": [
+      "39",
+      "-68",
+      "89",
+      "63",
+      "23",
+      "80",
+      "-34",
+      "-13",
+      "38",
+      "89"
+    ],
+    "options": [
+      "299",
+      "313",
+      "306",
+      "309"
+    ],
+    "answerIndex": 2,
+    "type": "arithmetic"
+  },
+  {
+    "id": 4,
+    "question": [
+      "62",
+      "15",
+      "96",
+      "87",
+      "56",
+      "-42",
+      "45",
+      "97",
+      "55",
+      "43"
+    ],
+    "options": [
+      "514",
+      "517",
+      "511",
+      "521"
+    ],
+    "answerIndex": 0,
+    "type": "arithmetic"
+  },
+  {
+    "id": 5,
+    "question": [
+      "74",
+      "28",
+      "87",
+      "14",
+      "-13",
+      "93",
+      "39",
+      "41",
+      "22",
+      "41"
+    ],
+    "options": [
+      "419",
+      "426",
+      "433",
+      "429"
+    ],
+    "answerIndex": 1,
+    "type": "arithmetic"
+  },
+  {
+    "id": 6,
+    "question": [
+      "68",
+      "62",
+      "43",
+      "-56",
+      "19",
+      "30",
+      "78",
+      "1",
+      "67",
+      "16"
+    ],
+    "options": [
+      "325",
+      "328",
+      "335",
+      "331"
+    ],
+    "answerIndex": 1,
+    "type": "arithmetic"
+  },
+  {
+    "id": 7,
+    "question": [
+      "18",
+      "35",
+      "-52",
+      "67",
+      "19",
+      "91",
+      "42",
+      "47",
+      "47",
+      "1"
+    ],
+    "options": [
+      "322",
+      "315",
+      "308",
+      "312"
+    ],
+    "answerIndex": 1,
+    "type": "arithmetic"
+  },
+  {
+    "id": 8,
+    "question": [
+      "29",
+      "48",
+      "71",
+      "15",
+      "38",
+      "-57",
+      "38",
+      "49",
+      "16",
+      "57"
+    ],
+    "options": [
+      "297",
+      "301",
+      "311",
+      "304"
+    ],
+    "answerIndex": 3,
+    "type": "arithmetic"
+  },
+  {
+    "id": 9,
+    "question": [
+      "94",
+      "64",
+      "57",
+      "36",
+      "67",
+      "48",
+      "57",
+      "-26",
+      "66",
+      "70"
+    ],
+    "options": [
+      "526",
+      "533",
+      "536",
+      "540"
+    ],
+    "answerIndex": 1,
+    "type": "arithmetic"
+  },
+  {
+    "id": 10,
+    "question": [
+      "29",
+      "78",
+      "68",
+      "20",
+      "54",
+      "92",
+      "5",
+      "55",
+      "38",
+      "9"
+    ],
+    "options": [
+      "451",
+      "448",
+      "455",
+      "441"
+    ],
+    "answerIndex": 1,
+    "type": "arithmetic"
+  },
+  {
+    "id": 11,
+    "question": [
+      "55",
+      "57",
+      "78",
+      "68",
+      "77",
+      "-97",
+      "56",
+      "71",
+      "17",
+      "10"
+    ],
+    "options": [
+      "399",
+      "392",
+      "389",
+      "385"
+    ],
+    "answerIndex": 1,
+    "type": "arithmetic"
+  },
+  {
+    "id": 12,
+    "question": [
+      "90",
+      "-68",
+      "3",
+      "16",
+      "42",
+      "88",
+      "19",
+      "24",
+      "97",
+      "10"
+    ],
+    "options": [
+      "314",
+      "318",
+      "324",
+      "321"
+    ],
+    "answerIndex": 3,
+    "type": "arithmetic"
+  },
+  {
+    "id": 13,
+    "question": [
+      "-85",
+      "95",
+      "23",
+      "-56",
+      "85",
+      "61",
+      "53",
+      "23",
+      "62",
+      "59"
+    ],
+    "options": [
+      "320",
+      "313",
+      "317",
+      "327"
+    ],
+    "answerIndex": 0,
+    "type": "arithmetic"
+  },
+  {
+    "id": 14,
+    "question": [
+      "26",
+      "-82",
+      "92",
+      "99",
+      "28",
+      "45",
+      "-13",
+      "10",
+      "97",
+      "19"
+    ],
+    "options": [
+      "314",
+      "318",
+      "324",
+      "321"
+    ],
+    "answerIndex": 3,
+    "type": "arithmetic"
+  },
+  {
+    "id": 15,
+    "question": [
+      "61",
+      "17",
+      "-28",
+      "18",
+      "66",
+      "17",
+      "96",
+      "59",
+      "28",
+      "15"
+    ],
+    "options": [
+      "349",
+      "346",
+      "352",
+      "356"
+    ],
+    "answerIndex": 0,
+    "type": "arithmetic"
+  },
+  {
+    "id": 16,
+    "question": [
+      "55",
+      "35",
+      "9",
+      "58",
+      "-24",
+      "13",
+      "27",
+      "70",
+      "30",
+      "49"
+    ],
+    "options": [
+      "325",
+      "319",
+      "329",
+      "322"
+    ],
+    "answerIndex": 3,
+    "type": "arithmetic"
+  },
+  {
+    "id": 17,
+    "question": [
+      "77",
+      "88",
+      "51",
+      "92",
+      "79",
+      "51",
+      "9",
+      "95",
+      "57",
+      "69"
+    ],
+    "options": [
+      "675",
+      "671",
+      "661",
+      "668"
+    ],
+    "answerIndex": 3,
+    "type": "arithmetic"
+  },
+  {
+    "id": 18,
+    "question": [
+      "64",
+      "98",
+      "58",
+      "56",
+      "3",
+      "44",
+      "22",
+      "63",
+      "85",
+      "69"
+    ],
+    "options": [
+      "559",
+      "555",
+      "562",
+      "565"
+    ],
+    "answerIndex": 2,
+    "type": "arithmetic"
+  },
+  {
+    "id": 19,
+    "question": [
+      "72",
+      "76",
+      "-34",
+      "25",
+      "92",
+      "16",
+      "52",
+      "52",
+      "76",
+      "77"
+    ],
+    "options": [
+      "504",
+      "501",
+      "507",
+      "497"
+    ],
+    "answerIndex": 0,
+    "type": "arithmetic"
+  },
+  {
+    "id": 20,
+    "question": [
+      "4",
+      "50",
+      "16",
+      "-21",
+      "79",
+      "20",
+      "94",
+      "76",
+      "31",
+      "90"
+    ],
+    "options": [
+      "432",
+      "439",
+      "442",
+      "436"
+    ],
+    "answerIndex": 1,
+    "type": "arithmetic"
+  },
+  {
+    "id": 21,
+    "question": [
+      "16",
+      "96",
+      "31",
+      "73",
+      "81",
+      "3",
+      "23",
+      "23",
+      "84",
+      "26"
+    ],
+    "options": [
+      "453",
+      "449",
+      "456",
+      "459"
+    ],
+    "answerIndex": 2,
+    "type": "arithmetic"
+  },
+  {
+    "id": 22,
+    "question": [
+      "91",
+      "43",
+      "88",
+      "77",
+      "21",
+      "12",
+      "4",
+      "67",
+      "32",
+      "94"
+    ],
+    "options": [
+      "529",
+      "526",
+      "536",
+      "532"
+    ],
+    "answerIndex": 0,
+    "type": "arithmetic"
+  },
+  {
+    "id": 23,
+    "question": [
+      "71",
+      "26",
+      "55",
+      "70",
+      "3",
+      "59",
+      "43",
+      "4",
+      "54",
+      "92"
+    ],
+    "options": [
+      "480",
+      "484",
+      "477",
+      "474"
+    ],
+    "answerIndex": 2,
+    "type": "arithmetic"
+  },
+  {
+    "id": 24,
+    "question": [
+      "86",
+      "34",
+      "58",
+      "39",
+      "72",
+      "-14",
+      "7",
+      "58",
+      "18",
+      "27"
+    ],
+    "options": [
+      "382",
+      "385",
+      "392",
+      "378"
+    ],
+    "answerIndex": 1,
+    "type": "arithmetic"
+  },
+  {
+    "id": 25,
+    "question": [
+      "56",
+      "24",
+      "11",
+      "-91",
+      "91",
+      "51",
+      "26",
+      "8",
+      "6",
+      "53"
+    ],
+    "options": [
+      "235",
+      "242",
+      "232",
+      "228"
+    ],
+    "answerIndex": 0,
+    "type": "arithmetic"
+  },
+  {
+    "id": 26,
+    "question": [
+      "28",
+      "-35",
+      "46",
+      "86",
+      "91",
+      "40",
+      "81",
+      "45",
+      "7",
+      "2"
+    ],
+    "options": [
+      "384",
+      "394",
+      "391",
+      "388"
+    ],
+    "answerIndex": 2,
+    "type": "arithmetic"
+  },
+  {
+    "id": 27,
+    "question": [
+      "99",
+      "9",
+      "72",
+      "55",
+      "47",
+      "42",
+      "81",
+      "79",
+      "62",
+      "8"
+    ],
+    "options": [
+      "554",
+      "557",
+      "547",
+      "551"
+    ],
+    "answerIndex": 0,
+    "type": "arithmetic"
+  },
+  {
+    "id": 28,
+    "question": [
+      "22",
+      "25",
+      "-77",
+      "10",
+      "20",
+      "40",
+      "21",
+      "36",
+      "7",
+      "94"
+    ],
+    "options": [
+      "198",
+      "195",
+      "201",
+      "191"
+    ],
+    "answerIndex": 0,
+    "type": "arithmetic"
+  },
+  {
+    "id": 29,
+    "question": [
+      "83",
+      "9",
+      "98",
+      "83",
+      "-25",
+      "90",
+      "92",
+      "26",
+      "57",
+      "84"
+    ],
+    "options": [
+      "604",
+      "590",
+      "600",
+      "597"
+    ],
+    "answerIndex": 3,
+    "type": "arithmetic"
+  },
+  {
+    "id": 30,
+    "question": [
+      "83",
+      "68",
+      "9",
+      "87",
+      "37",
+      "90",
+      "42",
+      "69",
+      "81",
+      "87"
+    ],
+    "options": [
+      "646",
+      "650",
+      "656",
+      "653"
+    ],
+    "answerIndex": 3,
+    "type": "arithmetic"
+  },
+  {
+    "id": 31,
+    "question": [
+      "56",
+      "99",
+      "8",
+      "11",
+      "36",
+      "50",
+      "24",
+      "-82",
+      "-57",
+      "92"
+    ],
+    "options": [
+      "237",
+      "230",
+      "240",
+      "244"
+    ],
+    "answerIndex": 0,
+    "type": "arithmetic"
+  },
+  {
+    "id": 32,
+    "question": [
+      "68",
+      "10",
+      "56",
+      "85",
+      "72",
+      "21",
+      "52",
+      "51",
+      "22",
+      "6"
+    ],
+    "options": [
+      "446",
+      "443",
+      "436",
+      "440"
+    ],
+    "answerIndex": 1,
+    "type": "arithmetic"
+  },
+  {
+    "id": 33,
+    "question": [
+      "2",
+      "59",
+      "65",
+      "-34",
+      "14",
+      "47",
+      "47",
+      "42",
+      "60",
+      "18"
+    ],
+    "options": [
+      "320",
+      "317",
+      "323",
+      "313"
+    ],
+    "answerIndex": 0,
+    "type": "arithmetic"
+  },
+  {
+    "id": 34,
+    "question": [
+      "33",
+      "27",
+      "6",
+      "83",
+      "15",
+      "10",
+      "49",
+      "26",
+      "23",
+      "37"
+    ],
+    "options": [
+      "312",
+      "306",
+      "309",
+      "316"
+    ],
+    "answerIndex": 2,
+    "type": "arithmetic"
+  },
+  {
+    "id": 35,
+    "question": [
+      "85",
+      "54",
+      "38",
+      "67",
+      "85",
+      "79",
+      "-68",
+      "56",
+      "17",
+      "6"
+    ],
+    "options": [
+      "412",
+      "426",
+      "419",
+      "422"
+    ],
+    "answerIndex": 2,
+    "type": "arithmetic"
+  },
+  {
+    "id": 36,
+    "question": [
+      "85",
+      "9",
+      "66",
+      "11",
+      "90",
+      "-71",
+      "90",
+      "53",
+      "27",
+      "2"
+    ],
+    "options": [
+      "359",
+      "362",
+      "365",
+      "355"
+    ],
+    "answerIndex": 1,
+    "type": "arithmetic"
+  },
+  {
+    "id": 37,
+    "question": [
+      "76",
+      "5",
+      "-66",
+      "50",
+      "39",
+      "71",
+      "42",
+      "84",
+      "76",
+      "92"
+    ],
+    "options": [
+      "472",
+      "462",
+      "469",
+      "466"
+    ],
+    "answerIndex": 2,
+    "type": "arithmetic"
+  },
+  {
+    "id": 38,
+    "question": [
+      "15",
+      "-46",
+      "93",
+      "22",
+      "82",
+      "48",
+      "81",
+      "32",
+      "24",
+      "-22"
+    ],
+    "options": [
+      "329",
+      "326",
+      "336",
+      "332"
+    ],
+    "answerIndex": 0,
+    "type": "arithmetic"
+  },
+  {
+    "id": 39,
+    "question": [
+      "98",
+      "9",
+      "56",
+      "98",
+      "49",
+      "9",
+      "97",
+      "5",
+      "72",
+      "63"
+    ],
+    "options": [
+      "553",
+      "556",
+      "549",
+      "563"
+    ],
+    "answerIndex": 1,
+    "type": "arithmetic"
+  },
+  {
+    "id": 40,
+    "question": [
+      "23",
+      "25",
+      "19",
+      "35",
+      "18",
+      "-27",
+      "38",
+      "52",
+      "65",
+      "82"
+    ],
+    "options": [
+      "333",
+      "323",
+      "337",
+      "330"
+    ],
+    "answerIndex": 3,
+    "type": "arithmetic"
+  },
+  {
+    "id": 41,
+    "question": [
+      "44",
+      "10",
+      "66",
+      "21",
+      "87",
+      "86",
+      "55",
+      "71",
+      "87",
+      "6"
+    ],
+    "options": [
+      "540",
+      "536",
+      "530",
+      "533"
+    ],
+    "answerIndex": 3,
+    "type": "arithmetic"
+  },
+  {
+    "id": 42,
+    "question": [
+      "54",
+      "80",
+      "32",
+      "24",
+      "53",
+      "65",
+      "-16",
+      "15",
+      "56",
+      "25"
+    ],
+    "options": [
+      "385",
+      "391",
+      "388",
+      "395"
+    ],
+    "answerIndex": 2,
+    "type": "arithmetic"
+  },
+  {
+    "id": 43,
+    "question": [
+      "86",
+      "30",
+      "54",
+      "23",
+      "22",
+      "-81",
+      "2",
+      "77",
+      "91",
+      "-56"
+    ],
+    "options": [
+      "241",
+      "251",
+      "245",
+      "248"
+    ],
+    "answerIndex": 3,
+    "type": "arithmetic"
+  },
+  {
+    "id": 44,
+    "question": [
+      "4",
+      "18",
+      "24",
+      "50",
+      "41",
+      "6",
+      "-10",
+      "19",
+      "95",
+      "61"
+    ],
+    "options": [
+      "315",
+      "305",
+      "301",
+      "308"
+    ],
+    "answerIndex": 3,
+    "type": "arithmetic"
+  },
+  {
+    "id": 45,
+    "question": [
+      "95",
+      "62",
+      "7",
+      "-54",
+      "72",
+      "-13",
+      "50",
+      "80",
+      "34",
+      "98"
+    ],
+    "options": [
+      "438",
+      "424",
+      "431",
+      "434"
+    ],
+    "answerIndex": 2,
+    "type": "arithmetic"
+  },
+  {
+    "id": 46,
+    "question": [
+      "75",
+      "93",
+      "21",
+      "36",
+      "57",
+      "64",
+      "-74",
+      "21",
+      "47",
+      "-56"
+    ],
+    "options": [
+      "291",
+      "284",
+      "277",
+      "287"
+    ],
+    "answerIndex": 1,
+    "type": "arithmetic"
+  },
+  {
+    "id": 47,
+    "question": [
+      "71",
+      "4",
+      "9",
+      "26",
+      "73",
+      "83",
+      "-47",
+      "94",
+      "16",
+      "92"
+    ],
+    "options": [
+      "414",
+      "418",
+      "424",
+      "421"
+    ],
+    "answerIndex": 3,
+    "type": "arithmetic"
+  },
+  {
+    "id": 48,
+    "question": [
+      "25",
+      "46",
+      "31",
+      "99",
+      "23",
+      "15",
+      "41",
+      "22",
+      "91",
+      "4"
+    ],
+    "options": [
+      "397",
+      "404",
+      "394",
+      "400"
+    ],
+    "answerIndex": 0,
+    "type": "arithmetic"
+  },
+  {
+    "id": 49,
+    "question": [
+      "66",
+      "43",
+      "9",
+      "31",
+      "-86",
+      "47",
+      "24",
+      "86",
+      "43",
+      "-72"
+    ],
+    "options": [
+      "194",
+      "188",
+      "184",
+      "191"
+    ],
+    "answerIndex": 3,
+    "type": "arithmetic"
+  },
+  {
+    "id": 50,
+    "question": [
+      "53",
+      "98",
+      "98",
+      "59",
+      "-83",
+      "51",
+      "72",
+      "-84",
+      "94",
+      "68"
+    ],
+    "options": [
+      "433",
+      "423",
+      "426",
+      "429"
+    ],
+    "answerIndex": 2,
+    "type": "arithmetic"
+  },
+  {
+    "id": 51,
+    "question": [
+      "7",
+      "3",
+      "99",
+      "2",
+      "85",
+      "82",
+      "55",
+      "88",
+      "99",
+      "38"
+    ],
+    "options": [
+      "558",
+      "565",
+      "555",
+      "551"
+    ],
+    "answerIndex": 0,
+    "type": "arithmetic"
+  },
+  {
+    "id": 52,
+    "question": [
+      "37",
+      "-15",
+      "95",
+      "92",
+      "-15",
+      "94",
+      "66",
+      "90",
+      "-68",
+      "18"
+    ],
+    "options": [
+      "394",
+      "401",
+      "387",
+      "391"
+    ],
+    "answerIndex": 0,
+    "type": "arithmetic"
+  },
+  {
+    "id": 53,
+    "question": [
+      "19",
+      "30",
+      "84",
+      "66",
+      "20",
+      "-51",
+      "-42",
+      "93",
+      "98",
+      "86"
+    ],
+    "options": [
+      "403",
+      "406",
+      "400",
+      "396"
+    ],
+    "answerIndex": 0,
+    "type": "arithmetic"
+  },
+  {
+    "id": 54,
+    "question": [
+      "81",
+      "96",
+      "35",
+      "75",
+      "12",
+      "50",
+      "-16",
+      "75",
+      "75",
+      "61"
+    ],
+    "options": [
+      "551",
+      "537",
+      "544",
+      "541"
+    ],
+    "answerIndex": 2,
+    "type": "arithmetic"
+  },
+  {
+    "id": 55,
+    "question": [
+      "-39",
+      "52",
+      "65",
+      "47",
+      "25",
+      "59",
+      "23",
+      "16",
+      "1",
+      "76"
+    ],
+    "options": [
+      "322",
+      "328",
+      "318",
+      "325"
+    ],
+    "answerIndex": 3,
+    "type": "arithmetic"
+  },
+  {
+    "id": 56,
+    "question": [
+      "9",
+      "63",
+      "55",
+      "9",
+      "-85",
+      "22",
+      "66",
+      "31",
+      "71",
+      "36"
+    ],
+    "options": [
+      "270",
+      "284",
+      "277",
+      "274"
+    ],
+    "answerIndex": 2,
+    "type": "arithmetic"
+  },
+  {
+    "id": 57,
+    "question": [
+      "1",
+      "9",
+      "-27",
+      "81",
+      "75",
+      "74",
+      "53",
+      "44",
+      "33",
+      "47"
+    ],
+    "options": [
+      "383",
+      "390",
+      "397",
+      "387"
+    ],
+    "answerIndex": 1,
+    "type": "arithmetic"
+  },
+  {
+    "id": 58,
+    "question": [
+      "-86",
+      "35",
+      "40",
+      "97",
+      "67",
+      "56",
+      "20",
+      "68",
+      "35",
+      "22"
+    ],
+    "options": [
+      "357",
+      "347",
+      "361",
+      "354"
+    ],
+    "answerIndex": 3,
+    "type": "arithmetic"
+  },
+  {
+    "id": 59,
+    "question": [
+      "79",
+      "44",
+      "72",
+      "16",
+      "5",
+      "96",
+      "54",
+      "97",
+      "93",
+      "60"
+    ],
+    "options": [
+      "616",
+      "609",
+      "619",
+      "613"
+    ],
+    "answerIndex": 0,
+    "type": "arithmetic"
+  },
+  {
+    "id": 60,
+    "question": [
+      "68",
+      "95",
+      "86",
+      "-23",
+      "45",
+      "-62",
+      "42",
+      "60",
+      "77",
+      "-19"
+    ],
+    "options": [
+      "366",
+      "369",
+      "362",
+      "376"
+    ],
+    "answerIndex": 1,
+    "type": "arithmetic"
+  },
+  {
+    "id": 61,
+    "question": [
+      "29 x 87"
+    ],
+    "options": [
+      "2516",
+      "2523",
+      "2530",
+      "2526"
+    ],
+    "answerIndex": 1,
+    "type": "multiplication"
+  },
+  {
+    "id": 62,
+    "question": [
+      "25 x 24"
+    ],
+    "options": [
+      "607",
+      "600",
+      "593",
+      "603"
+    ],
+    "answerIndex": 1,
+    "type": "multiplication"
+  },
+  {
+    "id": 63,
+    "question": [
+      "71 x 72"
+    ],
+    "options": [
+      "5112",
+      "5109",
+      "5119",
+      "5105"
+    ],
+    "answerIndex": 0,
+    "type": "multiplication"
+  },
+  {
+    "id": 64,
+    "question": [
+      "44 x 45"
+    ],
+    "options": [
+      "1987",
+      "1977",
+      "1983",
+      "1980"
+    ],
+    "answerIndex": 3,
+    "type": "multiplication"
+  },
+  {
+    "id": 65,
+    "question": [
+      "50 x 33"
+    ],
+    "options": [
+      "1650",
+      "1643",
+      "1647",
+      "1653"
+    ],
+    "answerIndex": 0,
+    "type": "multiplication"
+  },
+  {
+    "id": 66,
+    "question": [
+      "89 x 99"
+    ],
+    "options": [
+      "8804",
+      "8808",
+      "8814",
+      "8811"
+    ],
+    "answerIndex": 3,
+    "type": "multiplication"
+  },
+  {
+    "id": 67,
+    "question": [
+      "49 x 41"
+    ],
+    "options": [
+      "2006",
+      "2012",
+      "2009",
+      "2016"
+    ],
+    "answerIndex": 2,
+    "type": "multiplication"
+  },
+  {
+    "id": 68,
+    "question": [
+      "81 x 33"
+    ],
+    "options": [
+      "2673",
+      "2670",
+      "2680",
+      "2676"
+    ],
+    "answerIndex": 0,
+    "type": "multiplication"
+  },
+  {
+    "id": 69,
+    "question": [
+      "77 x 37"
+    ],
+    "options": [
+      "2856",
+      "2849",
+      "2852",
+      "2842"
+    ],
+    "answerIndex": 1,
+    "type": "multiplication"
+  },
+  {
+    "id": 70,
+    "question": [
+      "89 x 84"
+    ],
+    "options": [
+      "7476",
+      "7479",
+      "7483",
+      "7473"
+    ],
+    "answerIndex": 0,
+    "type": "multiplication"
+  },
+  {
+    "id": 71,
+    "question": [
+      "30 x 35"
+    ],
+    "options": [
+      "1050",
+      "1043",
+      "1047",
+      "1057"
+    ],
+    "answerIndex": 0,
+    "type": "multiplication"
+  },
+  {
+    "id": 72,
+    "question": [
+      "15 x 47"
+    ],
+    "options": [
+      "702",
+      "705",
+      "708",
+      "712"
+    ],
+    "answerIndex": 1,
+    "type": "multiplication"
+  },
+  {
+    "id": 73,
+    "question": [
+      "23 x 38"
+    ],
+    "options": [
+      "871",
+      "867",
+      "874",
+      "877"
+    ],
+    "answerIndex": 2,
+    "type": "multiplication"
+  },
+  {
+    "id": 74,
+    "question": [
+      "32 x 32"
+    ],
+    "options": [
+      "1024",
+      "1031",
+      "1027",
+      "1017"
+    ],
+    "answerIndex": 0,
+    "type": "multiplication"
+  },
+  {
+    "id": 75,
+    "question": [
+      "28 x 46"
+    ],
+    "options": [
+      "1281",
+      "1288",
+      "1291",
+      "1285"
+    ],
+    "answerIndex": 1,
+    "type": "multiplication"
+  },
+  {
+    "id": 76,
+    "question": [
+      "52 x 83"
+    ],
+    "options": [
+      "4316",
+      "4309",
+      "4319",
+      "4323"
+    ],
+    "answerIndex": 0,
+    "type": "multiplication"
+  },
+  {
+    "id": 77,
+    "question": [
+      "87 x 15"
+    ],
+    "options": [
+      "1312",
+      "1298",
+      "1308",
+      "1305"
+    ],
+    "answerIndex": 3,
+    "type": "multiplication"
+  },
+  {
+    "id": 78,
+    "question": [
+      "44 x 81"
+    ],
+    "options": [
+      "3557",
+      "3571",
+      "3564",
+      "3567"
+    ],
+    "answerIndex": 2,
+    "type": "multiplication"
+  },
+  {
+    "id": 79,
+    "question": [
+      "48 x 38"
+    ],
+    "options": [
+      "1827",
+      "1821",
+      "1824",
+      "1831"
+    ],
+    "answerIndex": 2,
+    "type": "multiplication"
+  },
+  {
+    "id": 80,
+    "question": [
+      "64 x 39"
+    ],
+    "options": [
+      "2489",
+      "2503",
+      "2499",
+      "2496"
+    ],
+    "answerIndex": 3,
+    "type": "multiplication"
+  },
+  {
+    "id": 81,
+    "question": [
+      "98 x 88"
+    ],
+    "options": [
+      "8627",
+      "8624",
+      "8631",
+      "8617"
+    ],
+    "answerIndex": 1,
+    "type": "multiplication"
+  },
+  {
+    "id": 82,
+    "question": [
+      "37 x 37"
+    ],
+    "options": [
+      "1362",
+      "1372",
+      "1376",
+      "1369"
+    ],
+    "answerIndex": 3,
+    "type": "multiplication"
+  },
+  {
+    "id": 83,
+    "question": [
+      "75 x 99"
+    ],
+    "options": [
+      "7418",
+      "7432",
+      "7422",
+      "7425"
+    ],
+    "answerIndex": 3,
+    "type": "multiplication"
+  },
+  {
+    "id": 84,
+    "question": [
+      "88 x 47"
+    ],
+    "options": [
+      "4136",
+      "4129",
+      "4133",
+      "4143"
+    ],
+    "answerIndex": 0,
+    "type": "multiplication"
+  },
+  {
+    "id": 85,
+    "question": [
+      "49 x 86"
+    ],
+    "options": [
+      "4214",
+      "4211",
+      "4221",
+      "4217"
+    ],
+    "answerIndex": 0,
+    "type": "multiplication"
+  },
+  {
+    "id": 86,
+    "question": [
+      "53 x 65"
+    ],
+    "options": [
+      "3445",
+      "3452",
+      "3438",
+      "3448"
+    ],
+    "answerIndex": 0,
+    "type": "multiplication"
+  },
+  {
+    "id": 87,
+    "question": [
+      "96 x 53"
+    ],
+    "options": [
+      "5085",
+      "5088",
+      "5081",
+      "5095"
+    ],
+    "answerIndex": 1,
+    "type": "multiplication"
+  },
+  {
+    "id": 88,
+    "question": [
+      "28 x 34"
+    ],
+    "options": [
+      "955",
+      "945",
+      "959",
+      "952"
+    ],
+    "answerIndex": 3,
+    "type": "multiplication"
+  },
+  {
+    "id": 89,
+    "question": [
+      "68 x 42"
+    ],
+    "options": [
+      "2853",
+      "2863",
+      "2856",
+      "2859"
+    ],
+    "answerIndex": 2,
+    "type": "multiplication"
+  },
+  {
+    "id": 90,
+    "question": [
+      "80 x 99"
+    ],
+    "options": [
+      "7920",
+      "7927",
+      "7923",
+      "7917"
+    ],
+    "answerIndex": 0,
+    "type": "multiplication"
+  },
+  {
+    "id": 91,
+    "question": [
+      "12 x 25"
+    ],
+    "options": [
+      "293",
+      "300",
+      "303",
+      "297"
+    ],
+    "answerIndex": 1,
+    "type": "multiplication"
+  },
+  {
+    "id": 92,
+    "question": [
+      "52 x 16"
+    ],
+    "options": [
+      "832",
+      "839",
+      "835",
+      "825"
+    ],
+    "answerIndex": 0,
+    "type": "multiplication"
+  },
+  {
+    "id": 93,
+    "question": [
+      "17 x 57"
+    ],
+    "options": [
+      "962",
+      "976",
+      "966",
+      "969"
+    ],
+    "answerIndex": 3,
+    "type": "multiplication"
+  },
+  {
+    "id": 94,
+    "question": [
+      "26 x 17"
+    ],
+    "options": [
+      "445",
+      "442",
+      "449",
+      "435"
+    ],
+    "answerIndex": 1,
+    "type": "multiplication"
+  },
+  {
+    "id": 95,
+    "question": [
+      "91 x 54"
+    ],
+    "options": [
+      "4914",
+      "4917",
+      "4911",
+      "4907"
+    ],
+    "answerIndex": 0,
+    "type": "multiplication"
+  },
+  {
+    "id": 96,
+    "question": [
+      "94 x 37"
+    ],
+    "options": [
+      "3475",
+      "3485",
+      "3478",
+      "3471"
+    ],
+    "answerIndex": 2,
+    "type": "multiplication"
+  },
+  {
+    "id": 97,
+    "question": [
+      "41 x 29"
+    ],
+    "options": [
+      "1196",
+      "1192",
+      "1189",
+      "1182"
+    ],
+    "answerIndex": 2,
+    "type": "multiplication"
+  },
+  {
+    "id": 98,
+    "question": [
+      "86 x 13"
+    ],
+    "options": [
+      "1125",
+      "1121",
+      "1111",
+      "1118"
+    ],
+    "answerIndex": 3,
+    "type": "multiplication"
+  },
+  {
+    "id": 99,
+    "question": [
+      "11 x 56"
+    ],
+    "options": [
+      "623",
+      "616",
+      "609",
+      "613"
+    ],
+    "answerIndex": 1,
+    "type": "multiplication"
+  },
+  {
+    "id": 100,
+    "question": [
+      "57 x 98"
+    ],
+    "options": [
+      "5583",
+      "5579",
+      "5586",
+      "5593"
+    ],
+    "answerIndex": 2,
+    "type": "multiplication"
+  },
+  {
+    "id": 101,
+    "question": [
+      "34 x 26"
+    ],
+    "options": [
+      "877",
+      "887",
+      "884",
+      "881"
+    ],
+    "answerIndex": 2,
+    "type": "multiplication"
+  },
+  {
+    "id": 102,
+    "question": [
+      "34 x 74"
+    ],
+    "options": [
+      "2509",
+      "2513",
+      "2516",
+      "2523"
+    ],
+    "answerIndex": 2,
+    "type": "multiplication"
+  },
+  {
+    "id": 103,
+    "question": [
+      "24 x 71"
+    ],
+    "options": [
+      "1704",
+      "1701",
+      "1707",
+      "1711"
+    ],
+    "answerIndex": 0,
+    "type": "multiplication"
+  },
+  {
+    "id": 104,
+    "question": [
+      "49 x 38"
+    ],
+    "options": [
+      "1865",
+      "1859",
+      "1862",
+      "1855"
+    ],
+    "answerIndex": 2,
+    "type": "multiplication"
+  },
+  {
+    "id": 105,
+    "question": [
+      "20 x 14"
+    ],
+    "options": [
+      "277",
+      "283",
+      "287",
+      "280"
+    ],
+    "answerIndex": 3,
+    "type": "multiplication"
+  },
+  {
+    "id": 106,
+    "question": [
+      "195 % 3"
+    ],
+    "options": [
+      "58",
+      "65",
+      "68",
+      "72"
+    ],
+    "answerIndex": 1,
+    "type": "division"
+  },
+  {
+    "id": 107,
+    "question": [
+      "480 % 6"
+    ],
+    "options": [
+      "73",
+      "80",
+      "83",
+      "87"
+    ],
+    "answerIndex": 1,
+    "type": "division"
+  },
+  {
+    "id": 108,
+    "question": [
+      "270 % 9"
+    ],
+    "options": [
+      "30",
+      "27",
+      "37",
+      "33"
+    ],
+    "answerIndex": 0,
+    "type": "division"
+  },
+  {
+    "id": 109,
+    "question": [
+      "235 % 5"
+    ],
+    "options": [
+      "47",
+      "44",
+      "54",
+      "50"
+    ],
+    "answerIndex": 0,
+    "type": "division"
+  },
+  {
+    "id": 110,
+    "question": [
+      "576 % 8"
+    ],
+    "options": [
+      "69",
+      "72",
+      "79",
+      "75"
+    ],
+    "answerIndex": 1,
+    "type": "division"
+  },
+  {
+    "id": 111,
+    "question": [
+      "46 % 2"
+    ],
+    "options": [
+      "23",
+      "30",
+      "26",
+      "20"
+    ],
+    "answerIndex": 0,
+    "type": "division"
+  },
+  {
+    "id": 112,
+    "question": [
+      "168 % 3"
+    ],
+    "options": [
+      "49",
+      "53",
+      "56",
+      "59"
+    ],
+    "answerIndex": 2,
+    "type": "division"
+  },
+  {
+    "id": 113,
+    "question": [
+      "531 % 9"
+    ],
+    "options": [
+      "62",
+      "59",
+      "56",
+      "66"
+    ],
+    "answerIndex": 1,
+    "type": "division"
+  },
+  {
+    "id": 114,
+    "question": [
+      "215 % 5"
+    ],
+    "options": [
+      "36",
+      "40",
+      "46",
+      "43"
+    ],
+    "answerIndex": 3,
+    "type": "division"
+  },
+  {
+    "id": 115,
+    "question": [
+      "378 % 7"
+    ],
+    "options": [
+      "57",
+      "51",
+      "54",
+      "47"
+    ],
+    "answerIndex": 2,
+    "type": "division"
+  },
+  {
+    "id": 116,
+    "question": [
+      "712 % 8"
+    ],
+    "options": [
+      "92",
+      "89",
+      "96",
+      "86"
+    ],
+    "answerIndex": 1,
+    "type": "division"
+  },
+  {
+    "id": 117,
+    "question": [
+      "380 % 4"
+    ],
+    "options": [
+      "95",
+      "102",
+      "98",
+      "88"
+    ],
+    "answerIndex": 0,
+    "type": "division"
+  },
+  {
+    "id": 118,
+    "question": [
+      "114 % 6"
+    ],
+    "options": [
+      "12",
+      "26",
+      "22",
+      "19"
+    ],
+    "answerIndex": 3,
+    "type": "division"
+  },
+  {
+    "id": 119,
+    "question": [
+      "285 % 3"
+    ],
+    "options": [
+      "88",
+      "92",
+      "95",
+      "98"
+    ],
+    "answerIndex": 2,
+    "type": "division"
+  },
+  {
+    "id": 120,
+    "question": [
+      "664 % 8"
+    ],
+    "options": [
+      "83",
+      "80",
+      "90",
+      "86"
+    ],
+    "answerIndex": 0,
+    "type": "division"
+  },
+  {
+    "id": 121,
+    "question": [
+      "672 % 7"
+    ],
+    "options": [
+      "103",
+      "96",
+      "89",
+      "93"
+    ],
+    "answerIndex": 1,
+    "type": "division"
+  },
+  {
+    "id": 122,
+    "question": [
+      "126 % 7"
+    ],
+    "options": [
+      "11",
+      "18",
+      "15",
+      "21"
+    ],
+    "answerIndex": 1,
+    "type": "division"
+  },
+  {
+    "id": 123,
+    "question": [
+      "408 % 6"
+    ],
+    "options": [
+      "71",
+      "68",
+      "61",
+      "75"
+    ],
+    "answerIndex": 1,
+    "type": "division"
+  },
+  {
+    "id": 124,
+    "question": [
+      "366 % 6"
+    ],
+    "options": [
+      "64",
+      "54",
+      "61",
+      "68"
+    ],
+    "answerIndex": 2,
+    "type": "division"
+  },
+  {
+    "id": 125,
+    "question": [
+      "364 % 4"
+    ],
+    "options": [
+      "84",
+      "88",
+      "91",
+      "98"
+    ],
+    "answerIndex": 2,
+    "type": "division"
+  },
+  {
+    "id": 126,
+    "question": [
+      "637 % 7"
+    ],
+    "options": [
+      "84",
+      "91",
+      "94",
+      "98"
+    ],
+    "answerIndex": 1,
+    "type": "division"
+  },
+  {
+    "id": 127,
+    "question": [
+      "216 % 3"
+    ],
+    "options": [
+      "65",
+      "72",
+      "69",
+      "79"
+    ],
+    "answerIndex": 1,
+    "type": "division"
+  },
+  {
+    "id": 128,
+    "question": [
+      "203 % 7"
+    ],
+    "options": [
+      "32",
+      "22",
+      "36",
+      "29"
+    ],
+    "answerIndex": 3,
+    "type": "division"
+  },
+  {
+    "id": 129,
+    "question": [
+      "138 % 6"
+    ],
+    "options": [
+      "20",
+      "30",
+      "16",
+      "23"
+    ],
+    "answerIndex": 3,
+    "type": "division"
+  },
+  {
+    "id": 130,
+    "question": [
+      "182 % 2"
+    ],
+    "options": [
+      "88",
+      "91",
+      "94",
+      "84"
+    ],
+    "answerIndex": 1,
+    "type": "division"
+  },
+  {
+    "id": 131,
+    "question": [
+      "48 % 3"
+    ],
+    "options": [
+      "9",
+      "19",
+      "23",
+      "16"
+    ],
+    "answerIndex": 3,
+    "type": "division"
+  },
+  {
+    "id": 132,
+    "question": [
+      "159 % 3"
+    ],
+    "options": [
+      "60",
+      "53",
+      "50",
+      "56"
+    ],
+    "answerIndex": 1,
+    "type": "division"
+  },
+  {
+    "id": 133,
+    "question": [
+      "80 % 5"
+    ],
+    "options": [
+      "19",
+      "23",
+      "13",
+      "16"
+    ],
+    "answerIndex": 3,
+    "type": "division"
+  },
+  {
+    "id": 134,
+    "question": [
+      "153 % 3"
+    ],
+    "options": [
+      "51",
+      "48",
+      "44",
+      "58"
+    ],
+    "answerIndex": 0,
+    "type": "division"
+  },
+  {
+    "id": 135,
+    "question": [
+      "623 % 7"
+    ],
+    "options": [
+      "89",
+      "86",
+      "82",
+      "96"
+    ],
+    "answerIndex": 0,
+    "type": "division"
+  },
+  {
+    "id": 136,
+    "question": [
+      "261 % 9"
+    ],
+    "options": [
+      "32",
+      "36",
+      "22",
+      "29"
+    ],
+    "answerIndex": 3,
+    "type": "division"
+  },
+  {
+    "id": 137,
+    "question": [
+      "232 % 4"
+    ],
+    "options": [
+      "55",
+      "61",
+      "51",
+      "58"
+    ],
+    "answerIndex": 3,
+    "type": "division"
+  },
+  {
+    "id": 138,
+    "question": [
+      "267 % 3"
+    ],
+    "options": [
+      "89",
+      "82",
+      "86",
+      "92"
+    ],
+    "answerIndex": 0,
+    "type": "division"
+  },
+  {
+    "id": 139,
+    "question": [
+      "402 % 6"
+    ],
+    "options": [
+      "67",
+      "64",
+      "60",
+      "70"
+    ],
+    "answerIndex": 0,
+    "type": "division"
+  },
+  {
+    "id": 140,
+    "question": [
+      "80 % 5"
+    ],
+    "options": [
+      "13",
+      "16",
+      "9",
+      "19"
+    ],
+    "answerIndex": 1,
+    "type": "division"
+  },
+  {
+    "id": 141,
+    "question": [
+      "270 % 3"
+    ],
+    "options": [
+      "97",
+      "90",
+      "93",
+      "87"
+    ],
+    "answerIndex": 1,
+    "type": "division"
+  },
+  {
+    "id": 142,
+    "question": [
+      "711 % 9"
+    ],
+    "options": [
+      "76",
+      "86",
+      "72",
+      "79"
+    ],
+    "answerIndex": 3,
+    "type": "division"
+  },
+  {
+    "id": 143,
+    "question": [
+      "189 % 9"
+    ],
+    "options": [
+      "18",
+      "14",
+      "28",
+      "21"
+    ],
+    "answerIndex": 3,
+    "type": "division"
+  },
+  {
+    "id": 144,
+    "question": [
+      "672 % 7"
+    ],
+    "options": [
+      "96",
+      "99",
+      "93",
+      "89"
+    ],
+    "answerIndex": 0,
+    "type": "division"
+  },
+  {
+    "id": 145,
+    "question": [
+      "288 % 4"
+    ],
+    "options": [
+      "69",
+      "75",
+      "65",
+      "72"
+    ],
+    "answerIndex": 3,
+    "type": "division"
+  },
+  {
+    "id": 146,
+    "question": [
+      "312 % 4"
+    ],
+    "options": [
+      "78",
+      "81",
+      "71",
+      "85"
+    ],
+    "answerIndex": 0,
+    "type": "division"
+  },
+  {
+    "id": 147,
+    "question": [
+      "80 % 5"
+    ],
+    "options": [
+      "9",
+      "16",
+      "19",
+      "13"
+    ],
+    "answerIndex": 1,
+    "type": "division"
+  },
+  {
+    "id": 148,
+    "question": [
+      "801 % 9"
+    ],
+    "options": [
+      "89",
+      "96",
+      "92",
+      "82"
+    ],
+    "answerIndex": 0,
+    "type": "division"
+  },
+  {
+    "id": 149,
+    "question": [
+      "243 % 9"
+    ],
+    "options": [
+      "27",
+      "30",
+      "20",
+      "24"
+    ],
+    "answerIndex": 0,
+    "type": "division"
+  },
+  {
+    "id": 150,
+    "question": [
+      "98 % 2",
+      "Answer Key"
+    ],
+    "options": [
+      "46",
+      "52",
+      "49",
+      "42"
+    ],
+    "answerIndex": 2,
+    "type": "arithmetic"
+  }
+]
