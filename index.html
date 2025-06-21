@@ -222,12 +222,12 @@
     </div>
     <div style="display: flex; flex-direction: column; width: 100%; height: 100%;">
         <div class="sidebar" id="navigation-panel" style="display: flex; flex-wrap: wrap; max-height: 160px; overflow-y: auto; width: 100%; justify-content: center; padding: 10px; background-color: #f0f0f0;"></div>
-        <div class="main" style="flex: 1; padding: 20px; overflow-y: auto;">
+        <div class="main" style="flex: 1; padding: 20px; overflow-y: auto; display: flex; flex-direction: column; justify-content: space-between;">
           
           <div id="timer">Time Left: 10:00</div>
           <div id="question-number"></div>
           <div class="question" id="question-text"></div>
-          <div class="options" id="options" style="display: flex; flex-wrap: wrap; gap: 16px;"></div>
+          <div class="options" id="options" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between;"></div>
 
           <div class="nav-buttons">
             <button onclick="prevQuestion()">Previous</button>
@@ -291,7 +291,7 @@ function showQuestion() {
   q.options.forEach((opt, i) => {
     const selected = userAnswers[currentIndex] === i ? 'checked' : '';
     optionsDiv.innerHTML += `
-      <label style="flex: 0 0 45%; font-size: 0.95em; padding: 12px 10px;"><input type=\"radio\" name=\"option\" value=\"${i}\" ${selected} onchange=\"handleAnswer(${i})\"> ${String.fromCharCode(65+i)}. ${opt}</label>
+      <label style="flex: 0 0 48%; font-size: 0.9em; padding: 10px 8px; box-sizing: border-box;"><input type=\"radio\" name=\"option\" value=\"${i}\" ${selected} onchange=\"handleAnswer(${i})\"> ${String.fromCharCode(65+i)}. ${opt}</label>
     `;
   });
 }
