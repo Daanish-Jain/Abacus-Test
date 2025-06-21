@@ -156,6 +156,37 @@
       height: 100vh;
       overflow-y: auto;
     }
+    .toggle-button {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      z-index: 999;
+      background-color: #1976d2;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      padding: 8px 12px;
+      font-size: 1.2em;
+      cursor: pointer;
+    }
+
+    .mobile-sidebar-wrapper {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 140px;
+      background: #f0f0f0;
+      box-shadow: 2px 0 6px rgba(0,0,0,0.1);
+      transform: translateX(-100%);
+      transition: transform 0.3s ease-in-out;
+      overflow-y: auto;
+      z-index: 998;
+    }
+
+    .mobile-sidebar-wrapper.open {
+      transform: translateX(0);
+    }
 </style>
 </head>
 <body>
@@ -178,6 +209,10 @@
 
     function loadExam() {
   const examHTML = `
+    <button class="toggle-button" onclick="toggleSidebar()">☰</button>
+    <div class="mobile-sidebar-wrapper" id="sidebarWrapper">
+      <div class="sidebar" id="navigation-panel"></div>
+    </div>
     <div style="display: flex; flex-direction: column; width: 100%; height: 100%;">
         <div class="sidebar" id="navigation-panel" style="display: flex; flex-wrap: wrap; max-height: 160px; overflow-y: auto; width: 100%; justify-content: center; padding: 10px; background-color: #f0f0f0;"></div>
         <div class="main" style="flex: 1; padding: 20px; overflow-y: auto;">
@@ -197,10 +232,15 @@
         </div>
       `;
       document.getElementById('appContent').innerHTML = examHTML;
-      initializeExam();
+      initializeExam(); // Load questions and start timer
     }
 
     // === EXAM JS START ===
+
+function toggleSidebar() {
+  const sidebar = document.getElementById('sidebarWrapper');
+  sidebar.classList.toggle('open');
+}
 
 let questions = [];
 let currentIndex = 0;
