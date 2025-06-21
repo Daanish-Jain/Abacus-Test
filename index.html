@@ -34,7 +34,7 @@
     }
     .start-screen button {
       padding: 12px 24px;
-      font-size: 1.2em;
+      font-size: 0.95em;
       border: none;
       border-radius: 6px;
       background-color: white;
@@ -69,14 +69,16 @@
   z-index: 10;
 }
     .sidebar {
-      width: 120px;
-      background-color: #f0f0f0;
-      padding: 10px;
-      overflow-y: auto;
-      border-right: 1px solid #ccc;
-      display: flex;
-      flex-direction: column;
-    }
+  width: 120px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-right: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+}
     .sidebar button {
       width: 100%;
       margin-bottom: 4px;
@@ -309,7 +311,9 @@ function submitExam() {
   clearInterval(timerInterval);
   let score = 0;
   let resultWindow = window.open('', '_blank');
-  let resultHtml = `<h1 style='font-size: 3em; color: blue; text-align: center; animation: popIn 0.8s ease-out;'>Your Score: `;
+
+  let resultHtml = '';
+
   questions.forEach((q, i) => {
     const userAnswer = userAnswers[i];
     const correct = q.answerIndex;
@@ -321,7 +325,10 @@ function submitExam() {
       </div>
     `;
   });
-  resultHtml = resultHtml + `${score}/150</h1>`;
+
+  // Score header now added AFTER score is calculated
+  resultHtml = `<h1 style='font-size: 3em; color: blue; text-align: center;'>Your Score: ${score}/150</h1>` + resultHtml;
+
   resultWindow.document.write(`
     <html>
     <head>
@@ -341,18 +348,19 @@ function submitExam() {
         .correct {
           color: green;
           margin: 10px 0;
-          font-size: 1.2em;
+          font-size: 0.8em;
         }
         .wrong {
           color: red;
           margin: 10px 0;
-          font-size: 1.2em;
+          font-size: 0.8em;
         }
       </style>
     </head>
     <body>` + resultHtml + `</body></html>`);
   resultWindow.document.close();
 }
+
 
 // === EXAM JS END ===
   </script>
