@@ -227,7 +227,7 @@
           <div id="timer">Time Left: 10:00</div>
           <div id="question-number"></div>
           <div class="question" id="question-text"></div>
-          <div class="options" id="options"></div>
+          <div class="options" id="options" style="display: flex; flex-wrap: wrap; gap: 16px;"></div>
 
           <div class="nav-buttons">
             <button onclick="prevQuestion()">Previous</button>
@@ -291,7 +291,7 @@ function showQuestion() {
   q.options.forEach((opt, i) => {
     const selected = userAnswers[currentIndex] === i ? 'checked' : '';
     optionsDiv.innerHTML += `
-      <label><input type="radio" name="option" value="${i}" ${selected} onchange="handleAnswer(${i})"> ${String.fromCharCode(65+i)}. ${opt}</label>
+      <label style="flex: 0 0 48%;"><input type=\"radio\" name=\"option\" value=\"${i}\" ${selected} onchange=\"handleAnswer(${i})\"> ${String.fromCharCode(65+i)}. ${opt}</label>
     `;
   });
 }
